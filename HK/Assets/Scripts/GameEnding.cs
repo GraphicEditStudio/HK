@@ -5,6 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class GameEnding : MonoBehaviour
 {
+    public AudioSource exitAudio;
+    public AudioSource caughtAudio;
+    bool m_HasAudioPlayed;
+
+
     public static GameEnding instance;
     public float fadeDuration = 1f;
     public float displayImageDuration = 1f;
@@ -38,15 +43,22 @@ public class GameEnding : MonoBehaviour
 
         if (m_IsPlayerAtExit)
         {
-            EndLevel(exitBackgroundImageCanvasGroup,false);
+            EndLevel(exitBackgroundImageCanvasGroup,false,exitAudio);
         }
         else if(m_IsPlayerCaught)
         {
-            EndLevel(caughtBackgroundImageCanvasGroup,true);
+            EndLevel(caughtBackgroundImageCanvasGroup,true,caughtAudio);
         }
     }
-    void EndLevel(CanvasGroup canvasGroupValue,bool doRestart)
+    void EndLevel(CanvasGroup canvasGroupValue,bool doRestart, AudioSource audioSource)
     {
+        if (!m_HasAudioPlayed)
+        {
+            audioSource.Play();
+            m_HasAudioPlayed = true;
+        }
+
+
         m_Timer += Time.deltaTime;
         canvasGroupValue.alpha = m_Timer / fadeDuration;
         if (m_Timer > fadeDuration + displayImageDuration)

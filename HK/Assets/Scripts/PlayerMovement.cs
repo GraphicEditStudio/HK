@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    AudioSource m_foodStepAudio;
 
     Animator m_Animator;
     Rigidbody m_Rigidbody;
@@ -14,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        m_foodStepAudio = GetComponent<AudioSource>();
         m_Animator = GetComponent<Animator>();
         m_Rigidbody = GetComponent<Rigidbody>();
     }
@@ -31,6 +33,17 @@ public class PlayerMovement : MonoBehaviour
         m_Animator.SetBool("IsWalking", isWalking);
         Vector3 desiredForward = Vector3.RotateTowards(transform.forward, m_movement, turnSpeed * Time.deltaTime, 0f);
         m_Rotation = Quaternion.LookRotation(desiredForward);
+        if(isWalking)
+        {
+            if (!m_foodStepAudio.isPlaying)
+            {
+                m_foodStepAudio.Play();
+            }
+        }
+        else
+        {
+            m_foodStepAudio.Stop();
+        }
     }
     private void OnAnimatorMove()
     {
