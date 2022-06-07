@@ -94,13 +94,14 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log("remaing distance"+nav.remainingDistance);
+		//Debug.Log("remaing distance"+nav.remainingDistance);
 
 		//Debug.Log(Vector3.Distance(new Vector3(nav.destination.x,0,nav.destination.z), new Vector3(target.position.x,0,target.position.z)));
 		nav.SetDestination(target.position);
-		if (nav.remainingDistance>nav.stoppingDistance-0.002f)
+		//if (nav.remainingDistance>nav.stoppingDistance-0.002f)
+		if (nav.velocity.magnitude > 0.01f)
         {
-			Move();
+			_animator.SetFloat("Speed", 2);
 		}
 		else
         {
@@ -109,8 +110,5 @@ public class FollowPlayer : MonoBehaviour
 		}
 	}
 	
-	private void Move()
-	{
-		_animator.SetFloat("Speed", 2);
-	}
+
 }
