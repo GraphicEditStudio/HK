@@ -294,6 +294,7 @@ namespace StarterAssets
 			{
 				_verticalVelocity += Gravity * Time.deltaTime;
 			}
+
 		}
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
