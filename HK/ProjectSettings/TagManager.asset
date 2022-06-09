@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - PLAYER
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 
+  - name: -3
+    uniqueID: 1164180399
+    locked: 0
+  - name: -2
+    uniqueID: 668856025
+    locked: 0
+  - name: -1
     uniqueID: 1856318815
+    locked: 0
+  - name: 0
+    uniqueID: 3808199347
+    locked: 0
+  - name: 1
+    uniqueID: 3188507383
+    locked: 0
+  - name: 2
+    uniqueID: 3983790349
+    locked: 0
+  - name: 3
+    uniqueID: 913375957
     locked: 0
