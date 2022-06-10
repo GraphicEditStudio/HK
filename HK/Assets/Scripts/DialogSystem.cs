@@ -44,7 +44,7 @@ public class DialogSystem : MonoBehaviour
     {
         if (t1)
         {
-            _inkStory.ChooseChoiceIndex(1);
+            _inkStory.ChooseChoiceIndex(0);
             Debug.Log(_inkStory.Continue());
             // DialogSystemController();
             t1 = false;
@@ -52,14 +52,22 @@ public class DialogSystem : MonoBehaviour
         string savedJson = _inkStory.state.ToJson();
        _inkStory.state.LoadJson(savedJson) ;
     }
+    void DegiskenTest()
+    {
+
+    }
+    public void SetHealthInUI(bool value)
+    {
+        Debug.Log("Gorev Degisti");
+        Debug.Log(_inkStory.variablesState["gorev1"]);
+    }
     void GorevSystem()
     {
-        _inkStory.variablesState["gorev1"] = true;
-        _inkStory.variablesState["total"] = 45;
-        //_inkStory.EvaluateFunction("gorev1",true);
+        _inkStory.ObserveVariable("gorev1", (string varName, object newValue) => {
+            SetHealthInUI((bool)newValue);
+        });
         
         Debug.Log("Görev System Start");
-        Debug.Log(_inkStory.variablesState["total"]);
         Debug.Log(_inkStory.variablesState["gorev1"]);
         //
         _inkStory.SwitchFlow("Görevler");
