@@ -3242,6 +3242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PictureFrame_StraightThin
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2de78e17331d71b49bd26432f0301b13, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2de78e17331d71b49bd26432f0301b13, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -5754,6 +5758,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rug_Corridor
       objectReference: {fileID: 0}
+    - target: {fileID: 1756587302985266, guid: d6f7474cae3e0ab43bce6c8505c5db19, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4195891706174378, guid: d6f7474cae3e0ab43bce6c8505c5db19, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6007,6 +6015,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 913d61a5ca2d96d43ba1c709260d55a7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.193
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 913d61a5ca2d96d43ba1c709260d55a7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 913d61a5ca2d96d43ba1c709260d55a7, type: 3}
@@ -7306,7 +7318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4603513369094130, guid: 32d2a8958697bb644913bfaedcc8df68, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.3
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 4603513369094130, guid: 32d2a8958697bb644913bfaedcc8df68, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8139,6 +8151,10 @@ PrefabInstance:
     - target: {fileID: 1037814792651371062, guid: c47f1a83b147ec342a2b5976fcfcdb01, type: 3}
       propertyPath: m_Name
       value: Wall_Corner_Exterior_Out
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037814792651371062, guid: c47f1a83b147ec342a2b5976fcfcdb01, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1037814792651371062, guid: c47f1a83b147ec342a2b5976fcfcdb01, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11101,6 +11117,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 79ec22444806b2e4dafc0b51ad057fa1, type: 3}
       propertyPath: m_Name
       value: FloorPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 79ec22444806b2e4dafc0b51ad057fa1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79ec22444806b2e4dafc0b51ad057fa1, type: 3}
       propertyPath: m_RootOrder
@@ -15611,7 +15631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7027469326338148510, guid: f0813250bbbbb424388bcfd29b014cb7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.2999992
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7027469326338148510, guid: f0813250bbbbb424388bcfd29b014cb7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16475,6 +16495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 1842708414955614, guid: 141a3c088bae48f42a579375904a411c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4669364078677402, guid: 141a3c088bae48f42a579375904a411c, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -16984,6 +17008,10 @@ PrefabInstance:
     - target: {fileID: 4059232635015247777, guid: fe38739420c917b45aa10d806da6344b, type: 3}
       propertyPath: m_Name
       value: Wall_Straight_Exterior_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 4059232635015247777, guid: fe38739420c917b45aa10d806da6344b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4059232635015247777, guid: fe38739420c917b45aa10d806da6344b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19798,6 +19826,10 @@ PrefabInstance:
     - target: {fileID: 7314275703527056958, guid: f0813250bbbbb424388bcfd29b014cb7, type: 3}
       propertyPath: m_Name
       value: Wall_Straight_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7314275703527056958, guid: f0813250bbbbb424388bcfd29b014cb7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7314275703527056958, guid: f0813250bbbbb424388bcfd29b014cb7, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -29603,6 +29635,10 @@ PrefabInstance:
       value: Wall_Window_02
       objectReference: {fileID: 0}
     - target: {fileID: 98295995651629226, guid: 962c5f6cf906ba8459778725994343f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 98295995651629226, guid: 962c5f6cf906ba8459778725994343f5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -34415,6 +34451,10 @@ PrefabInstance:
       value: Wall_Window_02
       objectReference: {fileID: 0}
     - target: {fileID: 98295995651629226, guid: 962c5f6cf906ba8459778725994343f5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 98295995651629226, guid: 962c5f6cf906ba8459778725994343f5, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
@@ -34719,6 +34759,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4aa23393587d7204bbc9f4a30599bf61, type: 3}
       propertyPath: m_Name
       value: CeilingPlane
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4aa23393587d7204bbc9f4a30599bf61, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4aa23393587d7204bbc9f4a30599bf61, type: 3}
       propertyPath: m_RootOrder
