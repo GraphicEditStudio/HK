@@ -984,7 +984,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: bbe58c5ccdaf0be41aa3adbbb4e4706d, type: 2}
     - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_fontStyle
-      value: 0
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_fontColor.b
@@ -1015,12 +1015,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4344159070829643913, guid: bbe58c5ccdaf0be41aa3adbbb4e4706d, type: 2}
     - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_verticalMapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_horizontalMapping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250065, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_HorizontalAlignment
@@ -1069,6 +1077,22 @@ PrefabInstance:
     - target: {fileID: 6518006769806920333, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769806920334, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_Color.a
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769806920334, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769806920334, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6518006769806920334, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_Color.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6518006770488294506, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.x
