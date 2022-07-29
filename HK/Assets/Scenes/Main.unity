@@ -4436,6 +4436,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Yarn-Dialogue
       objectReference: {fileID: 0}
+    - target: {fileID: 2164411532118204325, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2164411532429692809, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -4538,39 +4542,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5317248533127309190, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -1880
       objectReference: {fileID: 0}
     - target: {fileID: 5317248533127309190, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 1840
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 144.96
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 940
       objectReference: {fileID: 0}
     - target: {fileID: 6518006769724250078, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -92.48
       objectReference: {fileID: 0}
     - target: {fileID: 6518006770488294506, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 184.96
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2164411533325461011, guid: 172f50331857ca34fb199ce386381dd1, type: 3}
